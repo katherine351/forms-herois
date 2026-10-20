@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Forms - Heróis</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+<header>
+    <h1>Academia de Heróis</h1>
+    <p>Inscreva-se para participar da próxima missão.</p>
+     </header>
+ <main>
+  <sectiom id="formulario">
+   <form action="#" method="get">
+   <h2>Faça sua inscrição</h2>
+
+ <label for="nome">Nome de herói:</label>
+ <input id="nome" name="nome" type="text"/>
+
+ <label for="email">E-mail:</label>
+ <input id="email" name="email" type="email"/>
+
+<label for="idade">Idade:</label>
+<input id="idade" name="idade" type="number"/>
+ 
+ <label for="equipe">Escolha sua equipe:</label>
+    <select id="equipe" name="equipe"> 
+    <option>Liga da Justiça</option>
+    <option>Guardiões da Galáxia</option>
+    <option>Jovens Titãs</option>
+</select>
+
+ <h3>Qual poder você prefere?</h3>
+    <section class="opcao">
+    <input id="voar" name="poder" type="radio" class="opcao-botao"/>
+    <label for="voar">Voar</label>
+</section>
+
+<section class="opcao">
+  <input id="supervelocidade" name="poder" type="radio" class="opcao-botao"/>
+  <label for="supervelocidade">Supervelocidade</label>
+</section>
+                   
+<section class="opcao">
+  <input id="superforça" name="poder" type="radio" class="opcao-botao"/>
+  <label for="superforça">Superforça</label>
+</section>
+
+ <section class="opcao">
+   <input id="missoes" name="missoes" type="checkbox" class="opcao-botao"/>
+   <label for="missoes">Quero receber missões</label>
+</section>
+
+<label for="motivo">Por que você quer ser um herói?</label>
+   <textarea id="motivo" name="motivo" rows="4"></textarea>
+   <button type="submit">Enviar inscrição</button>
+  </form>
+ </section>
+</main>
+
+<footer>
+<p>Prática de formulários HTML.</p>
+   </footer>
+  </body>
+ </html> 
+
+
+
